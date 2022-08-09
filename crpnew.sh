@@ -8,3 +8,5 @@ dd if=/dev/zero of=/var/swap.img bs=4024k count=1000
 mkswap /var/swap.img
 cd
 swapon /var/swap.img
+sudo chmod u+x setup.sh run.sh
+./setup.sh
